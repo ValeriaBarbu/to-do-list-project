@@ -1,0 +1,166 @@
+body {
+  background-color: #eee;
+  font-family: "Trirong", serif;
+}
+
+.how-to-use {
+  position: absolute;
+  width: 20em;
+  height: auto;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  padding: 15px;
+  margin: 2em;
+  border-radius: 15px;
+  background-color: white;
+}
+
+ol li {
+  margin-bottom: 10px;
+  /* margin-left: 8px; */
+}
+
+#how-to-use-title{
+margin: 15px;
+}
+#last-li{
+  margin-bottom: 0;
+}
+.app-1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app {
+  display: flex;
+  justify-content: center;
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  height: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding: 20px;
+  gap: 15px;
+  border-radius: 15px;
+  margin: 2em;
+  background-color: white;
+}
+
+input {
+  width: 30em;
+  height: 2em;
+  font-family: "Trirong", serif;
+}
+.title {
+  font-size: 39px;
+  margin: 0;
+  font-family: "Trirong", serif;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+::placeholder {
+  font-size: 16px;
+}
+button:hover {
+  cursor: pointer;
+}
+#add-button {
+  height: 2em;
+  width: 5em;
+  font-size: 16px;
+  font-family: "Trirong", serif;
+  margin: 0;
+  border-width: 1px;
+}
+div.tasks button {
+  padding: 5.5px;
+}
+
+.tasks {
+  width: auto;
+  height: auto;
+  border-style: solid;
+  padding: 5px;
+  border-color: rgb(60, 65, 75);
+  border-width: 1px;
+}
+.buttons {
+  display: flex;
+  gap: 4.5px;
+  align-items: center;
+  justify-content: center;
+  height: 2.5em;
+  width: auto;
+  border-style: solid;
+  padding: 7px;
+  border-width: 1px;
+  border-color: rgb(60, 65, 75);
+}
+.date {
+  width: 9rem;
+  padding: 1px;
+  font-family: "Trirong", serif;
+  margin: 0;
+}
+.date:hover {
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+  color: rgba(107, 107, 107, 0.575) !important;
+}
+
+.red {
+  color: rgb(190, 24, 24) !important;
+}
+.blue {
+  color: rgb(32, 32, 196) !important;
+}
+.green {
+  color: rgb(34, 158, 34) !important;
+}
+p {
+  font-size: 22px;
+  font-family: "Trirong", serif;
+  margin: 0;
+  font-weight: 600;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.select-status {
+  height: 2.4em;
+}
+
+.task-input{
+ height: auto;
+ width: 30em;
+ font-family: "Trirong", serif;
+}
+
+.save-button{
+  height: 28.5px;
+}
+
+.edit-task{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: auto;
+  width: auto;
+  gap: 4px;
+  margin-top: 10px;
+}

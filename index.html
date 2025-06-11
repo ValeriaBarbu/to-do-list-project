@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To do list app</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+
+</head>
+<body>
+  <div class="app-1">
+    <div class="how-to-use">
+      <h1 id="how-to-use-title">How to use:</h1>
+      <ol>
+        <li >Click on the "Add task here" container and write in your task</li>
+        <li>Press the "Add" button or the "Enter" key to add the task to the list</li>
+        <li>Press the "✅" button to mark the task as done</li>
+        <li>Press the "❌" button to delete the task</li>
+        <li>Press the "🔴" button to mark the task as high priority</li>
+        <li>Press the "🔵" button to mark the task as medium priority</li>
+        <li>Press the "🟢" button to mark the task as low priority</li>
+        <li>(Optional) Add a status for your task from the provided statuses</li>
+        <li>(Optional) Add a specific date or deadline for your task</li>
+        <li>Press the "📝" button to edit your task</li>
+        <li id="last li">While in the edit function press the "Save" button or the "Enter" key to save your changes</li>
+      </ol>
+    </div>
+    <div class="app">
+      <div class="app-container">
+        <h1 class="title">To-do list:</h1>
+        <div class="add-task">
+          <input type="text" placeholder="Add a task here">
+          <button id="add-button">Add</button>
+        </div>
+        <!-- <div class="tasks">
+          <div class="buttons">
+            <button id="done-button" >
+              <span>✅</span>
+            </button>
+            <button id="delete-button">
+              <span>❌</span>
+            </button>
+            <button id="red-button">
+             <span class="priority">🔴</span> 
+            </button>
+            <button id="blue-button">
+              <span class="priority">🔵</span>
+            </button>
+            <button id="green-button">
+              <span class="priority">🟢</span>
+            </button>
+            <select name="progress" class="select-status">
+              <option value="">--Select status--</option>
+              <option value="not started">not started</option>
+              <option value="pending">pending</option>
+              <option value="in progress">in progress</option>
+            </select>
+            <input type="date" class="date">
+            <button id="edit-button">📝</button>
+          </div>
+          <p class="green">Task</p>
+          <div class="edit-task">
+            <input class="task-input" type="text">
+            <button class="save-button">Save</button>
+          </div>
+        </div> -->
+      </div>      
+    </div>   
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
